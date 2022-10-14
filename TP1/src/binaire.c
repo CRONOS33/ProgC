@@ -13,7 +13,7 @@ int main()
     int limit = (sizeof(valeur)*CHAR_BIT-1);//permet de connaitre la taille en bits de notre element
     masque = masque << limit;//permet de creer un masque 1 sur le bits de poids maximal
 
-    for (j = 0; j <= limit ; j++) //affiche
+    for (j = 0; j <= limit ; j++) //affiche 
     {
 
         if (0!=(valeur & masque))
