@@ -27,5 +27,5 @@ int main() {
     long double var8 = 1.2525557757;
     printf("Voici un long double : %Lg\n",var8);
     
-return 0;
+    return 0;
 }
